@@ -72,7 +72,8 @@ int playGame(void) {
 	        		case 'A':
 	        			// Arrow up
 	        			if (direction == 3) {
-	        				playing = false;
+	        				//Ignore input
+                            //playing = false;
 	        			} else {
 	        				direction = 1;
 	        			}
@@ -80,7 +81,7 @@ int playGame(void) {
 	        		case 'B':
 	        			// Arrow down
 	        			if (direction == 1) {
-	        				playing = false;
+	        				//playing = false;
 	        			} else {
 	        				direction = 3;
 	        			}
@@ -88,7 +89,7 @@ int playGame(void) {
 	        		case 'C':
 	        			// Arrow right
 	        			if (direction == 0) {
-	        				playing = false;
+	        				//playing = false;
 	        			} else {
 	        				direction = 2;
 	        			}
@@ -96,7 +97,7 @@ int playGame(void) {
 	        		case 'D':
 	        			// Arrow left
 	        			if (direction == 2) {
-	        				playing = false;
+	        				//playing = false;
 	        			} else {
 	        				direction = 0;
 	        			}
